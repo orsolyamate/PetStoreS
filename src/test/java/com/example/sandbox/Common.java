@@ -32,7 +32,7 @@ public class Common extends Endpoints {
     if (checkResponseCodeFlag.get() != null && checkResponseCodeFlag.get()) {
       assertReturnCode(threadLocalResponse.get(), 200);
     }
-    assertReturnTime(threadLocalResponse.get(), maxResponseTime);
+    assertReturnTime(threadLocalResponse.get(), MAX_RESPONSE_TIME);
   }
 
   // ----------------------------------GET----------------------------------
