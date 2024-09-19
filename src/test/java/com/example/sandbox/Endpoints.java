@@ -9,6 +9,8 @@ public class Endpoints {
     public static final String uploadImage = "/pet/{petId}/uploadImage";
     public static final String newPet = "/pet";
     public static final String petById = "/pet/{petId}";
+  public static final String updatePet = "/pet";
+  public static final String deletePet = "/pet/{petId}";
 
     //-------------------------store-------------------------
     public static final String order = "/store/order";
